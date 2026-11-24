@@ -12,16 +12,16 @@
     <div class="app">
         <h1>Logical Thinking</h1>
         <div class="quiz">
-            <h2 id="question">Question goes here</h2>
+            <h2 id="question" aria-live="polite">Question goes here</h2>
             <div id="answer-buttons"></div>
         </div>
-        <div id="timer">1:00</div>
-        <button id="next-button">Next</button><br><br>
+        <div id="timer" role="timer" aria-live="off">1:00</div>
+        <button id="next-button" type="button" disabled>Next</button><br><br>
         <div class="copyright">
             Copyright © Quiz Web App <i class="fa-solid fa-code"></i> <a href="https://691xtck4llxg2o9mgcnobq.on.drv.tw/Thish/" >Thish.</a>
         </div>
     </div>
     
-    <script src="script.js"></script>    
+    <script type="module" src="script.js"></script>    
 </body>
 </html>
